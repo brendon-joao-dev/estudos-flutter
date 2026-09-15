@@ -1,6 +1,6 @@
 {
-    "name": "hello_world",
-    "short_name": "hello_world",
+    "name": "curso_youtube",
+    "short_name": "curso_youtube",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-package com.example.hello_world
+package com.example.curso_youtube
 
 import io.flutter.embedding.android.FlutterActivity
 
