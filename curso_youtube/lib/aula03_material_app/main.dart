@@ -4,6 +4,7 @@ void main() {
   runApp(AppWidget(title: "Eu estou dentro de um Material App"));
 }
 
+// StatelessWidget serve para criar Widgets que não mudam de estado
 class AppWidget extends StatelessWidget {
   // Declaração de uma propriedade
   final String title;
@@ -13,6 +14,8 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // MaterialApp é o Widget base de qualquer aplicação em flutter 
+    // pois permite várias configurações genéricas pro aplicativo
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.red

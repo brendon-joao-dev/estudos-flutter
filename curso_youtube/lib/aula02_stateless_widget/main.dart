@@ -4,6 +4,7 @@ void main() {
   runApp(AppWidget(title: "Eu fui escrito numa variável"));
 }
 
+// StatelessWidget serve para criar Widgets que não mudam de estado
 class AppWidget extends StatelessWidget {
   // Declaração de uma propriedade
   final String title;

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-main() {
+void main() {
   runApp(Container(
+    color: Colors.white70,
     child: Center(
       child: Text(
       "Hello World Flutter!",
@@ -12,6 +13,5 @@ main() {
       ),
       ),
     ),
-    color: Colors.white70
   ));
 }
