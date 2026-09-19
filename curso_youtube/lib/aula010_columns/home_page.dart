@@ -26,6 +26,7 @@ class HomePageState extends State<HomePage> {
         width: double.infinity,
         // Define todo o espaço vertical
         height: double.infinity,
+        // Como o nome sugere, ordena os widgets filhos em coluna, verticalmente
         child: Column(
           // Alinhamento principal
           mainAxisAlignment: MainAxisAlignment.center,
